@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-worth, initial-scale=1, maximum-scale-scale, user-scalable=no")
+    <title>My Flappy</title>
+    <style>
+      body{
+        background: cyan;
+        padding: 0px;
+        margin: 0px
+      }
+    </style>
+  </head>
+
+  <body>
+    
+    <script src="js/phaser.js"></script>
+    <script src="js/boot.js"></script>
+
+    <script>
+      var game = new Phaser.Game(320,568);
+      game.state.add('boot',Flappy.Boot);
+      </script>
+
+
+  </body>
+
+</html>
